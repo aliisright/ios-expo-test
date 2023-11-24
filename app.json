@@ -26,6 +26,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "24dd0d17-645c-49f7-a11f-e3be3a9ce41a"
+      }
+    },
+    "owner": "alihasan_dior"
   }
 }

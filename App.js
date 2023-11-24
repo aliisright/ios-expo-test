@@ -17,7 +17,14 @@ export default function App() {
         <AssetExample />
       </Card>
       <View style={{ width: 250, height: 220 }}>
-
+        <DateTimePicker
+          mode="date"
+          display="compact"
+          value={new Date()}
+          minimumDate={new Date()}
+          onChange={() => {}}
+          style={{ flex: 0.8, marginLeft: 'auto', marginRight: 'auto' }}
+        />
       </View>
     </SafeAreaView>
   );
